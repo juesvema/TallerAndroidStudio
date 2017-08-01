@@ -42,4 +42,9 @@ public class MainActivity extends AppCompatActivity {
             super.onStop();
             text.setText("Paso por el onStop");
         }
+    @Override
+        public void onDestroy() {
+            super.onDestroy();
+            text.setText("Paso por el onDestroy");
+        }
 }
