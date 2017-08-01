@@ -13,33 +13,33 @@ public class MainActivity extends AppCompatActivity {
             text = (TextView)findViewById(R.id.texto);
         }
 
+    @Override
         public void onStart() {
             super.onStart();
             text.setText("Paso por el onStart");
         }
 
+    @Override
         public void onRestart() {
             super.onRestart();
             text.setText("Paso por el onRestart");
         }
 
+    @Override
         public void onResume() {
             super.onResume();
             text.setText("Paso por el onResume");
         }
 
+    @Override
         public void onPause() {
             super.onPause();
             text.setText("Paso por el onPause");
         }
 
+    @Override
         public void onStop() {
             super.onStop();
             text.setText("Paso por el onStop");
-        }
-
-        public void onDestroy() {
-            super.onStop();
-            text.setText("Paso por el onDestroy");
         }
 }
