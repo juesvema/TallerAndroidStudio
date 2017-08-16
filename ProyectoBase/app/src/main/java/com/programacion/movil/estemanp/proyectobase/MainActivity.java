@@ -59,7 +59,10 @@ public class MainActivity extends AppCompatActivity {
             super.onStop();
             text.setText("Paso por el onStop");
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7d7303c7212ad1e9c63d5d18ca2e4f93fc45b82e
     @Override
         public void onDestroy() {
             super.onDestroy();
